@@ -1,0 +1,56 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <UseWPF>true</UseWPF>
+    <ApplicationIcon>Assets\food.ico</ApplicationIcon>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Assets\china.png" />
+    <None Remove="Assets\food.ico" />
+    <None Remove="Assets\gluten.png" />
+    <None Remove="Assets\mexico.png" />
+    <None Remove="Assets\milk.png" />
+    <None Remove="Assets\soybean.png" />
+    <None Remove="Assets\sulfide.png" />
+    <None Remove="Assets\usa.png" />
+    <None Remove="Fonts\ChineseWokFoodSt-lGoZ.ttf" />
+    <None Remove="Fonts\Slim Summer.otf" />
+    <None Remove="Fonts\TacoSalad-vmWM.ttf" />
+    <None Remove="FotosPlatos\burguer.jpg" />
+    <None Remove="FotosPlatos\cerdoagridulce.jpg" />
+    <None Remove="FotosPlatos\dumplings.jpg" />
+    <None Remove="FotosPlatos\fajitas.jpg" />
+    <None Remove="FotosPlatos\hotdog.jpg" />
+    <None Remove="FotosPlatos\tacos.jpg" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Assets\food.ico" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="Assets\china.png" />
+    <Resource Include="Assets\food.ico" />
+    <Resource Include="Assets\gluten.png" />
+    <Resource Include="Assets\mexico.png" />
+    <Resource Include="Assets\milk.png" />
+    <Resource Include="Assets\soybean.png" />
+    <Resource Include="Assets\sulfide.png" />
+    <Resource Include="Assets\usa.png" />
+    <Resource Include="Fonts\ChineseWokFoodSt-lGoZ.ttf" />
+    <Resource Include="Fonts\Slim Summer.otf" />
+    <Resource Include="Fonts\TacoSalad-vmWM.ttf" />
+    <Resource Include="FotosPlatos\burguer.jpg" />
+    <Resource Include="FotosPlatos\cerdoagridulce.jpg" />
+    <Resource Include="FotosPlatos\dumplings.jpg" />
+    <Resource Include="FotosPlatos\fajitas.jpg" />
+    <Resource Include="FotosPlatos\hotdog.jpg" />
+    <Resource Include="FotosPlatos\tacos.jpg" />
+  </ItemGroup>
+
+</Project>
